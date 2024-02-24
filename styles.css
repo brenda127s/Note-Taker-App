@@ -37,6 +37,7 @@ input {
     margin: 8px;
     font-size: 16px;
     padding: 10px;
+    
 }
 
 button {
@@ -47,4 +48,39 @@ button {
     cursor: pointer;
     background-color: #eade2e;
     border: none;
+}
+
+ul li {
+    border: 2px solid lightgray;
+    border-radius: 2%;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: white;
+}
+
+.note-label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;    
+}
+
+#noteList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 2px solid lightgray;
+    background-color: #fefdf2;
+    border-radius: 30px;
 }
